@@ -87,16 +87,21 @@
 
 
 #social-wrapper{
-   position:absolute;
    margin:0;
+   margin-top:80px;
+   height:100px;
+/*
+   position:absolute;
    padding:0;
    bottom:0;
    left:0;
+   */
 }
 
 .social{
     margin: 1.5em 0 0;
     padding: 1em 0 2em;
+    height:100%;
     background: #FBFBFC;
     border-top: 1px solid #E1E1E1;	
 }
@@ -105,12 +110,14 @@
     padding: 0;
     margin: 0;
     text-align: center;
+    min-height:100px;
 }
 .social-list li{
 	display: inline-block;
 }
 
 ul{
+    padding-top:30px;
     display: block;
     list-style-type: disc;
     -webkit-margin-before: 1em;
@@ -120,6 +127,40 @@ ul{
     -webkit-padding-start: 40px;
 }
 
+
+.social-list a {
+    height:40px;
+    width:37px;
+    background-size: 37px 40px;
+    color:transparent;
+}
+
+a.gmail {
+    background-image: url(icons/gmail.png);
+}
+a.twitter {
+    background-image: url(icons/twitter.png);
+}
+a.gp {
+    background-image: url(icons/gp.png);
+}
+a.instagram {
+    background-image: url(icons/insta.png);
+}
+a.facebook {
+    background-image: url(icons/facebook.png);
+}
+
+.social-list a {
+    color: transparent;
+    font: 0/0 a;
+    text-shadow: none;
+    margin: 0 20px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: .8;
+}
 
 
 body {
