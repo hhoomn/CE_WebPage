@@ -1,6 +1,8 @@
 .html{
 	position: relative;
 	min-height:100%;
+	margin:0;
+	padding:0;
 }
 
 #navigation {
@@ -87,6 +89,7 @@
 
 
 #social-wrapper{
+   padding:0;
    margin:0;
    margin-top:80px;
    height:100px;
@@ -116,7 +119,7 @@
 	display: inline-block;
 }
 
-ul{
+.social-list ul{
     padding-top:30px;
     display: block;
     list-style-type: disc;
@@ -130,6 +133,7 @@ ul{
 
 .social-list a {
     height:40px;
+    width:37px;
     background-size: 37px 40px;
     color:transparent;
 }
@@ -164,5 +168,7 @@ a.facebook {
 
 body {
 	font-family: "BentonSans", "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+	padding:0;
+	margin:0;
 	-webkit-font-smoothing: antialiased;
 }

@@ -1,6 +1,8 @@
 .html{
 	position: relative;
 	min-height:100%;
+	margin:0;
+	padding:0;
 }
 
 #navigation {
@@ -87,6 +89,7 @@
 
 
 #social-wrapper{
+   padding:0;
    margin:0;
    margin-top:80px;
    height:100px;
@@ -116,7 +119,7 @@
 	display: inline-block;
 }
 
-ul{
+.social-list ul{
     padding-top:30px;
     display: block;
     list-style-type: disc;
@@ -136,19 +139,19 @@ ul{
 }
 
 a.gmail {
-    background-image: url(icons/gmail.png);
+    background-image: url(icons/gmail2.png);
 }
 a.twitter {
-    background-image: url(icons/twitter.png);
+    background-image: url(icons/twitter2.png);
 }
 a.gp {
-    background-image: url(icons/gp.png);
+    background-image: url(icons/gp2.png);
 }
 a.instagram {
-    background-image: url(icons/insta.png);
+    background-image: url(icons/insta2.png);
 }
 a.facebook {
-    background-image: url(icons/facebook.png);
+    background-image: url(icons/facebook2.png);
 }
 
 .social-list a {
@@ -165,5 +168,7 @@ a.facebook {
 
 body {
 	font-family: "BentonSans", "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+	padding:0;
+	margin:0;
 	-webkit-font-smoothing: antialiased;
 }
