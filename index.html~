@@ -74,6 +74,9 @@
 			$(this).animate({color:"#4A90E2"},200);	
 			
 		});
+		$("body").load(function(){
+				$(this).css("opacity","1.0");
+			});
 	});
 </script>
 <body class="home-page">
@@ -89,7 +92,7 @@
 	    <div class="collapse navbar-collapse" id="myNavbar">
 	      <ul class="nav navbar-nav">
 		<li class="active"><a href="#">Home</a></li>
-		<li><a href="#">About me</a></li>
+		<li><a href="about.html">About me</a></li>
 		<li><a href="#">Research</a></li>
 		<li class="dropdown">
 		  <a class="dropdown-toggle" href="#">Other <span class="caret"></span></a>

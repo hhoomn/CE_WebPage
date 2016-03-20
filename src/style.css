@@ -7,7 +7,7 @@
 
 #navigation {
 	margin-left:20px;
-	margin-top:15px;
+	margin-top:0px;
 }
 #navigation  a {
 	color: #444;
@@ -30,7 +30,7 @@
 
 
 
-#content h6, nav h6 {
+#content h6, nav h6, .content h6 {
     margin: 0 0 20px;
     text-transform: uppercase;
     font-weight: 900;
@@ -39,20 +39,25 @@
     color: #444;
 }
 
-#content h2 {
+#content h2, .content h2 {
     margin: .25em 0;
+    margin-bottom: 0.5em;
     color: rgba(67,0,152,0.85);
     font-size: 30px;
     letter-spacing: -.02em;
     line-height: 1.2;
 }
 
-#content {
+#content, .content {
     margin-top:2em;
     padding-top:2em;
     padding-left:1.5em;
-    background-color:rgba(255,255,255,0.9);
+    background-color:rgba(255,255,255,1);
     padding-bottom:2em;
+}
+
+.content {
+    margin:0.5em;
 }
 
 .button, a.button {
@@ -78,10 +83,20 @@
 }
 
 
+#normal-wrapper {
+    padding:0;
+    min-height:1000px;
+    padding-top: 4em;
+    padding-bottom: 100px;
+    height: auto;
+    background-color: #6e5baa
+}
+
+
 #wrapper {
     padding:0;
     padding-top: 4em;
-    padding-bottom: 130px;
+    padding-bottom: 100px;
     height: auto;
     background-image:url('paper1.jpg');
 }
