@@ -28,6 +28,11 @@
 	background-color: transparent
 }
 
+.disabled a:focus, .disabled a:hover, .disabled {
+    background-color: transparent;
+    color: #888;
+}
+
 
 
 #content h6, nav h6, .content h6 {
@@ -55,6 +60,7 @@
     background-color:rgba(255,255,255,1);
     padding-bottom:2em;
 }
+
 
 .content {
     margin:0.5em;
