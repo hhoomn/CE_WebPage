@@ -94,6 +94,9 @@
 
 
 #wrapper {
+  -moz-box-shadow:   inset 0px 0px 5px 6px rgba(0,0,0,0.5);
+  -webkit-box-shadow:inset 0px 0px 5px 6px rgba(0,0,0,0.5);
+  box-shadow:        inset 0px 0px 5px 6px rgba(0,0,0,0.5);
     padding:0;
     padding-top: 4em;
     padding-bottom: 100px;
@@ -192,6 +195,7 @@ a.facebook {
     display: block;
     background-repeat: no-repeat;
     background-position: center;
+    opacity: .8;
 }
 
 #contact-wrapper{
@@ -205,7 +209,6 @@ a.facebook {
 body {
 	font-family: "BentonSans", "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
 	padding:0;
-	opacity:0;
 	margin:0;
 	-webkit-font-smoothing: antialiased;
 }
