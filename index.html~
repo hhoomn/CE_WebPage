@@ -91,17 +91,10 @@
 	      <ul class="nav navbar-nav">
 		<li class="active"><a href="#">Home</a></li>
 		<li><a href="about.html">About me</a></li>
-		<li><a href="#">Research</a></li>
-		<li class="dropdown">
-		  <a class="dropdown-toggle" href="#">Other <span class="caret"></span></a>
-		  <ul class="dropdown-menu">
-		    <li><a href="#">Activities</a></li>
-		    <li><a href="#">Professional Experiences</a></li>
-		    <li><a href="#">Hobbies</a></li>
-		  </ul>
-		</li>
+		<li><a href="research.html">Research</a></li>
 		
-		<li><a href="#">Timeline</a></li>
+		
+		<li><a class="disabled"  href="nopage.html">Timeline</a></li>
 	      </ul>
 	      <ul class="nav navbar-nav navbar-right">
 		      <li>
@@ -124,7 +117,7 @@
 				<h2>Welcome to my homepage</h2>
 				<p>I am Hooman Hashemi. I am currently pursuing B.Sc. at Computer Engineering Department of Sharif University of Technology.</p>
 				<p>My research interests and domains of study are mostly around titles like Machine Learning, Computer Vision, Design and Analysis of Algorithms and Theoretical Computer Science.</p>
-				<p>The rightmost person in the picture is me.</p>
+				<p>The leftmost person in the picture is me.</p>
 
 				
 				<a class="button col-sm-5" href="downloads/CV.pdf" style="float:left">Download my CV</a>
