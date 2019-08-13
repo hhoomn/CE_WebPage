@@ -109,10 +109,17 @@
             <div class="col-sm-10">
                 <div class="col-sm-12">
 			<div class="col-sm-6" style="padding-right:50px">
-				<video width="100%" class="w3-round w3-card-2" controls>
+				<video id="vid" width="90%" class="w3-round w3-card-2" autoplay controls>
 				  <source src="downloads/face.mp4" type="video/mp4">
 				Your browser does not support the video tag.
 				</video>
+				<script>
+				$(document).ready(function(){
+					setTimeout(function(){
+						video1 = $("#vid").get(0)
+						video1.play()},2000)
+				})
+				</script>
 
 
 		    		<!--<img src="src/me.JPG" alt="Lights" style="width:100%" class="w3-round w3-card-2">-->
@@ -121,8 +128,8 @@
 			<div class="col-sm-6 w3-card-2" id="content">
 				<h6>Hooman Hashemi</h6>
 				<h2>Welcome to my homepage</h2>
-				<p>I am Hooman Hashemi. I am currently pursuing B.Sc. at Computer Engineering Department of Sharif University of Technology.</p>
-				<p>My research interests and domains of study are mostly around titles like Machine Learning, Computer Vision, Design and Analysis of Algorithms and Theoretical Computer Science.</p>
+				<p>I am Hooman Hashemi. I am currently pursuing M.Sc. at Computer Science Department of Sharif University of Technology.</p>
+				<p>My research domains is mostly around Computer Vision. I also like complicated inference methods though I don't know which field studies that (e.g. baysian inference or message passing like inferences in deep networks).  I also study other fields of CS like AI, Graphical models and Theoretical Computer Science.</p>
 				<p>The leftmost person in the picture is me.</p>
 
 				
@@ -145,7 +152,7 @@
     <div class="col-sm-12" id="social-wrapper">
 	<section class="social">
 	  <ul class="social-list">
-	    <li><a class="gmail" href="mailto:hoomhashemi@gmail.com">gmail</a></li>
+	    <li><a class="gmail" href="mailto:hashemih@alumni.cs.ubc.ca">gmail</a></li>
 	    <li><a class="twitter" href="https://twitter.com/hhoomn">twitter</a></li>
 	    <li><a class="gp" href="https://plus.google.com/115655333990958106475">google+</a></li>
 	    <li><a class="instagram" href="https://www.instagram.com/_hhoomn/">instagram</a></li>
